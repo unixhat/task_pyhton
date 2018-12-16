@@ -8,7 +8,7 @@ print("jumlah file dan folder",jumlah_file)
 print("isi dalemannya bang: %s"%os.listdir(os.getcwd()))
 
 for filename in os.listdir("."):
-    os.rename(filename, filename[:-4] + '1')
+    os.rename(filename, filename[:-9] + '1')
 
 
 print("isi dalemannya bang: %s"%os.listdir(os.getcwd()))
